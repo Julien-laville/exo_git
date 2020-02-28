@@ -1,5 +1,5 @@
-
-function cross(vector) {
-  return this.x * vector.y + thix.y * vector.x
+// i prefer cury version
+const cross = (vector) => (vectorB) {
+  return vector.x * vectorB.y + vector.y * vectorB.x
 }
 
